@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77450" started-at="2019-08-02T06:58:28Z" finished-at="2019-08-02T06:59:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77450" started-at="2019-08-02T06:58:28Z" finished-at="2019-08-02T06:59:46Z">
+      <class name="com.go.testcases.PurchasingItemTest">
+        <test-method status="PASS" signature="commonPayementFlow()[pri:0, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="commonPayementFlow" is-config="true" duration-ms="19348" started-at="2019-08-02T06:58:28Z" description="Verify the common flow between the both testcase uptp card selection." finished-at="2019-08-02T06:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPayementFlow -->
+        <test-method status="PASS" signature="purchasingPillowWithCorrectPaymentMethod()[pri:1, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="purchasingPillowWithCorrectPaymentMethod" duration-ms="24996" started-at="2019-08-02T06:58:48Z" description="Checkout flow for purchasing Pillow usingCredit Card as payment method." finished-at="2019-08-02T06:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasingPillowWithCorrectPaymentMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="closeBrowser" is-config="true" duration-ms="657" started-at="2019-08-02T06:59:13Z" description="Close the browser" finished-at="2019-08-02T06:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="commonPayementFlow()[pri:0, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="commonPayementFlow" is-config="true" duration-ms="11261" started-at="2019-08-02T06:59:13Z" description="Verify the common flow between the both testcase uptp card selection." finished-at="2019-08-02T06:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPayementFlow -->
+        <test-method status="PASS" signature="purchasingPillowWithIncorrectPaymentMethod()[pri:2, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="purchasingPillowWithIncorrectPaymentMethod" duration-ms="20184" started-at="2019-08-02T06:59:25Z" description="Checkout flow for purchasing Pillow usingCredit Card as payment method." finished-at="2019-08-02T06:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchasingPillowWithIncorrectPaymentMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.go.testcases.PurchasingItemTest@6d4b1c02]" name="closeBrowser" is-config="true" duration-ms="950" started-at="2019-08-02T06:59:45Z" description="Close the browser" finished-at="2019-08-02T06:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.go.testcases.PurchasingItemTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
